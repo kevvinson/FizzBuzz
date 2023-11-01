@@ -4,9 +4,9 @@ namespace FizzBuzz
 {
     public class FizzBuzzGame
     {
-        public string CountOff(int v)
+        public string CountOff(int num)
         {
-            return " ";
+            return num.ToString();
         }
     }
 }
