@@ -12,7 +12,14 @@ namespace FizzBuzz
             }
             else
             {
-                return num.ToString();
+                if (num % 5 == 0)
+                {
+                    return "Buzz";
+                }
+                else
+                {
+                    return num.ToString();
+                }
             }
         }
     }
